@@ -1,7 +1,7 @@
 name = "statuspage-worker"
 main = "./src/index.ts"
 compatibility_date = "2022-05-20"
-
+account_id = 'd059d559b54c11f29d0b573ee9509f77'
 # Duplicate preview_id to id
 # kv_namespaces = [
 #    { binding = "KV_STATUS_PAGE", preview_id = "3d8acb80aa6641f5822b3596dd305588", id = "3d8acb80aa6641f5822b3596dd305588" }
@@ -12,3 +12,4 @@ compatibility_date = "2022-05-20"
 # kv_namespaces = [
 #    { binding = "KV_STATUS_PAGE", id = "817c36c380ae427692fe7d879d924322" }
 # ]
+# MPknq58FHUiUPI2p5ISiSKQ2Td8kugv0gaPZQ3MG
