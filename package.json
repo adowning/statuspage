@@ -1,6 +1,7 @@
 {
   "name": "statuspage",
   "version": "0.0.1a",
+  "main":"src/index.js",
   "private": true,
   "description": "Monorepo for a Cloudflare based Statuspage. ",
   "author": "Jan Stubenrauch <info@jstubenrauch.de>",

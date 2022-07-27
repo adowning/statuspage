@@ -17,12 +17,12 @@ export default {
     return new Response('Statuspage Worker!')
   },
 
-  async scheduled(event: ScheduledEvent, env: env, ctx: ExecutionContext) {
+  async scheduled(event: ScheduledEvent, env: any, ctx: ExecutionContext) {
     ctx.waitUntil(triggerEvent(event, env))
   },
 }
 
-async function triggerEvent(event: ScheduledEvent, env: env) {
+async function triggerEvent(event: ScheduledEvent, env: any) {
   // Write code for updating your API
   switch (event.cron) {
     // You can set up to three schedules maximum.
