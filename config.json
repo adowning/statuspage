@@ -43,6 +43,19 @@
       "lon": 8.682127,
       "lat": 50.110924,
       "shouldAnalyze": true
+    },
+     {
+      "id": "search-ashdevtools-com",
+      "name": "search.ashdevtools.com",
+      "description": "Status Page ashdevtools.",
+      "url": "https://search.ashdevtools.com/health",
+      "method": "GET",
+      "expectStatus": 200,
+      "followRedirect": false,
+      "linkable": true,
+      "lon": 8.682127,
+      "lat": 50.110924,
+      "shouldAnalyze": true
     }
   ]
 }
