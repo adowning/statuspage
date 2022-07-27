@@ -1,7 +1,7 @@
 {
   "settings": {
     "title": "Status Page",
-    "url": "https://status.jstubenrauch.de",
+    "url": "https://status.ashdevtools.com",
     "logo": "favicon.png",
     "daysInHistogram": 30,
     "daysSavedForHistogram": 90,
