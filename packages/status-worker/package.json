@@ -2,7 +2,7 @@
   "name": "my-worker",
   "version": "0.0.0",
   "private": true,
-  "main":"src/index.js",
+  "main": "src/index.js",
   "scripts": {
     "start": "wrangler dev",
     "publish": "wrangler publish",
